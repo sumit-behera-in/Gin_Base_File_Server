@@ -1,6 +1,6 @@
 package main
 
 func main() {
-	// Modify this function according to your needs
-	println("Hello, World!")
+	postgres := "postgresql://postgres:admin@localhost:5432/gin_http_register?sslmode=disable"
+	print(postgres)
 }
