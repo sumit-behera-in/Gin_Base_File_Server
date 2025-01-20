@@ -1,4 +1,4 @@
-# go-repo-template
+# gin-base-server
 This is a template to make go repositories. 
 
 ## About the Project
