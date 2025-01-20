@@ -3,8 +3,8 @@ package db
 var (
 	query_initClusters = `CREATE TABLE IF NOT EXISTS clusters ( 
 		id SERIAL PRIMARY KEY,
-		name VARCHAR(100),
-		url VARCHAR(100),
+		name VARCHAR(100) UNIQUE NOT NULL,
+		url VARCHAR(100) UNIQUE NOT NULL,
 		user_count SMALLINT,
 		total_storage DOUBLE PRECISION,
 		total_used DOUBLE PRECISION,
